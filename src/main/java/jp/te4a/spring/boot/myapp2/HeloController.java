@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RestController
 public class HeloController 
 {
-	@RequestMapping("/TARO")
+	@RequestMapping("/taro")
 	public String TARO() {
 		return "TARO desu!";
 	}
